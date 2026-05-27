@@ -24,25 +24,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2A22CE632FC06BB3005EC3B2 /* RunningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A22CE702FC06BB4005EC3B2 /* RunningAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunningAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A22CE7A2FC06BB4005EC3B2 /* RunningAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunningAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A22CE632FC06BB3005EC3B2 /* Loop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A22CE702FC06BB4005EC3B2 /* LoopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A22CE7A2FC06BB4005EC3B2 /* LoopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2A22CEAC2FC0EDC3005EC3B2 /* Exceptions for "Loop" folder in "Loop" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2A22CE622FC06BB3005EC3B2 /* Loop */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		2A22CE652FC06BB3005EC3B2 /* RunningApp */ = {
+		2A22CE652FC06BB3005EC3B2 /* Loop */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = RunningApp;
+			exceptions = (
+				2A22CEAC2FC0EDC3005EC3B2 /* Exceptions for "Loop" folder in "Loop" target */,
+			);
+			path = Loop;
 			sourceTree = "<group>";
 		};
-		2A22CE732FC06BB4005EC3B2 /* RunningAppTests */ = {
+		2A22CE732FC06BB4005EC3B2 /* LoopTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = RunningAppTests;
+			path = LoopTests;
 			sourceTree = "<group>";
 		};
-		2A22CE7D2FC06BB4005EC3B2 /* RunningAppUITests */ = {
+		2A22CE7D2FC06BB4005EC3B2 /* LoopUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = RunningAppUITests;
+			path = LoopUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +88,9 @@
 		2A22CE5A2FC06BB3005EC3B2 = {
 			isa = PBXGroup;
 			children = (
-				2A22CE652FC06BB3005EC3B2 /* RunningApp */,
-				2A22CE732FC06BB4005EC3B2 /* RunningAppTests */,
-				2A22CE7D2FC06BB4005EC3B2 /* RunningAppUITests */,
+				2A22CE652FC06BB3005EC3B2 /* Loop */,
+				2A22CE732FC06BB4005EC3B2 /* LoopTests */,
+				2A22CE7D2FC06BB4005EC3B2 /* LoopUITests */,
 				2A22CE642FC06BB3005EC3B2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +98,9 @@
 		2A22CE642FC06BB3005EC3B2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A22CE632FC06BB3005EC3B2 /* RunningApp.app */,
-				2A22CE702FC06BB4005EC3B2 /* RunningAppTests.xctest */,
-				2A22CE7A2FC06BB4005EC3B2 /* RunningAppUITests.xctest */,
+				2A22CE632FC06BB3005EC3B2 /* Loop.app */,
+				2A22CE702FC06BB4005EC3B2 /* LoopTests.xctest */,
+				2A22CE7A2FC06BB4005EC3B2 /* LoopUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2A22CE622FC06BB3005EC3B2 /* RunningApp */ = {
+		2A22CE622FC06BB3005EC3B2 /* Loop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A22CE842FC06BB4005EC3B2 /* Build configuration list for PBXNativeTarget "RunningApp" */;
+			buildConfigurationList = 2A22CE842FC06BB4005EC3B2 /* Build configuration list for PBXNativeTarget "Loop" */;
 			buildPhases = (
 				2A22CE5F2FC06BB3005EC3B2 /* Sources */,
 				2A22CE602FC06BB3005EC3B2 /* Frameworks */,
@@ -108,18 +121,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				2A22CE652FC06BB3005EC3B2 /* RunningApp */,
+				2A22CE652FC06BB3005EC3B2 /* Loop */,
 			);
-			name = RunningApp;
+			name = Loop;
 			packageProductDependencies = (
 			);
 			productName = RunningApp;
-			productReference = 2A22CE632FC06BB3005EC3B2 /* RunningApp.app */;
+			productReference = 2A22CE632FC06BB3005EC3B2 /* Loop.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2A22CE6F2FC06BB4005EC3B2 /* RunningAppTests */ = {
+		2A22CE6F2FC06BB4005EC3B2 /* LoopTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A22CE872FC06BB4005EC3B2 /* Build configuration list for PBXNativeTarget "RunningAppTests" */;
+			buildConfigurationList = 2A22CE872FC06BB4005EC3B2 /* Build configuration list for PBXNativeTarget "LoopTests" */;
 			buildPhases = (
 				2A22CE6C2FC06BB4005EC3B2 /* Sources */,
 				2A22CE6D2FC06BB4005EC3B2 /* Frameworks */,
@@ -131,18 +144,18 @@
 				2A22CE722FC06BB4005EC3B2 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				2A22CE732FC06BB4005EC3B2 /* RunningAppTests */,
+				2A22CE732FC06BB4005EC3B2 /* LoopTests */,
 			);
-			name = RunningAppTests;
+			name = LoopTests;
 			packageProductDependencies = (
 			);
 			productName = RunningAppTests;
-			productReference = 2A22CE702FC06BB4005EC3B2 /* RunningAppTests.xctest */;
+			productReference = 2A22CE702FC06BB4005EC3B2 /* LoopTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2A22CE792FC06BB4005EC3B2 /* RunningAppUITests */ = {
+		2A22CE792FC06BB4005EC3B2 /* LoopUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A22CE8A2FC06BB4005EC3B2 /* Build configuration list for PBXNativeTarget "RunningAppUITests" */;
+			buildConfigurationList = 2A22CE8A2FC06BB4005EC3B2 /* Build configuration list for PBXNativeTarget "LoopUITests" */;
 			buildPhases = (
 				2A22CE762FC06BB4005EC3B2 /* Sources */,
 				2A22CE772FC06BB4005EC3B2 /* Frameworks */,
@@ -154,13 +167,13 @@
 				2A22CE7C2FC06BB4005EC3B2 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				2A22CE7D2FC06BB4005EC3B2 /* RunningAppUITests */,
+				2A22CE7D2FC06BB4005EC3B2 /* LoopUITests */,
 			);
-			name = RunningAppUITests;
+			name = LoopUITests;
 			packageProductDependencies = (
 			);
 			productName = RunningAppUITests;
-			productReference = 2A22CE7A2FC06BB4005EC3B2 /* RunningAppUITests.xctest */;
+			productReference = 2A22CE7A2FC06BB4005EC3B2 /* LoopUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +199,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2A22CE5E2FC06BB3005EC3B2 /* Build configuration list for PBXProject "RunningApp" */;
+			buildConfigurationList = 2A22CE5E2FC06BB3005EC3B2 /* Build configuration list for PBXProject "Loop" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +213,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A22CE622FC06BB3005EC3B2 /* RunningApp */,
-				2A22CE6F2FC06BB4005EC3B2 /* RunningAppTests */,
-				2A22CE792FC06BB4005EC3B2 /* RunningAppUITests */,
+				2A22CE622FC06BB3005EC3B2 /* Loop */,
+				2A22CE6F2FC06BB4005EC3B2 /* LoopTests */,
+				2A22CE792FC06BB4005EC3B2 /* LoopUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +271,12 @@
 /* Begin PBXTargetDependency section */
 		2A22CE722FC06BB4005EC3B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2A22CE622FC06BB3005EC3B2 /* RunningApp */;
+			target = 2A22CE622FC06BB3005EC3B2 /* Loop */;
 			targetProxy = 2A22CE712FC06BB4005EC3B2 /* PBXContainerItemProxy */;
 		};
 		2A22CE7C2FC06BB4005EC3B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2A22CE622FC06BB3005EC3B2 /* RunningApp */;
+			target = 2A22CE622FC06BB3005EC3B2 /* Loop */;
 			targetProxy = 2A22CE7B2FC06BB4005EC3B2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -395,8 +408,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V65WZWGFA5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Loop/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -407,7 +422,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = karla.RunningApp;
+				PRODUCT_BUNDLE_IDENTIFIER = karla.Loop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -426,8 +441,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V65WZWGFA5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Loop/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -438,7 +455,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = karla.RunningApp;
+				PRODUCT_BUNDLE_IDENTIFIER = karla.Loop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -467,7 +484,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RunningApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RunningApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Loop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Loop";
 			};
 			name = Debug;
 		};
@@ -488,7 +505,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RunningApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RunningApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Loop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Loop";
 			};
 			name = Release;
 		};
@@ -533,7 +550,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A22CE5E2FC06BB3005EC3B2 /* Build configuration list for PBXProject "RunningApp" */ = {
+		2A22CE5E2FC06BB3005EC3B2 /* Build configuration list for PBXProject "Loop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A22CE822FC06BB4005EC3B2 /* Debug */,
@@ -542,7 +559,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A22CE842FC06BB4005EC3B2 /* Build configuration list for PBXNativeTarget "RunningApp" */ = {
+		2A22CE842FC06BB4005EC3B2 /* Build configuration list for PBXNativeTarget "Loop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A22CE852FC06BB4005EC3B2 /* Debug */,
@@ -551,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A22CE872FC06BB4005EC3B2 /* Build configuration list for PBXNativeTarget "RunningAppTests" */ = {
+		2A22CE872FC06BB4005EC3B2 /* Build configuration list for PBXNativeTarget "LoopTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A22CE882FC06BB4005EC3B2 /* Debug */,
@@ -560,7 +577,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A22CE8A2FC06BB4005EC3B2 /* Build configuration list for PBXNativeTarget "RunningAppUITests" */ = {
+		2A22CE8A2FC06BB4005EC3B2 /* Build configuration list for PBXNativeTarget "LoopUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A22CE8B2FC06BB4005EC3B2 /* Debug */,
