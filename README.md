@@ -1,6 +1,6 @@
 # Loop
 
-A multiplayer running app for iOS where the goal isn't just distance — it's territory.
+A multiplayer running app for iOS where the goal isn't just distance, it's territory.
 
 Run a closed loop anywhere in the world, and the area you enclosed becomes yours. The runner who claims the most land wins.
 
@@ -25,7 +25,7 @@ Runs that don't close into a loop are still saved to your history, they just don
 ### Models
 | File | Description |
 |------|-------------|
-| `Models.swift` | Data models for the app. `Activity` stores a saved run — its date, distance, duration, GPS coordinates, enclosed area, and whether it formed a closed loop. `Profile` stores a runner's name, join date, and assigned colour. |
+| `Models.swift` | Data models for the app. `Activity` stores a saved run; its date, distance, duration, GPS coordinates, enclosed area, and whether it formed a closed loop. `Profile` stores a runner's name, join date, and assigned colour. |
 | `TrackingManager.swift` | Handles all GPS logic during a run. Manages recording state (idle, recording, paused), collects location updates, filters out inaccurate points, calculates live distance, and runs the elapsed time timer. |
 | `GeoMath.swift` | Geographic calculations. Determines whether a route forms a closed loop (within the 50 m threshold), and calculates the enclosed area in square metres using an equirectangular projection and the shoelace formula. |
 | `AccessCodes.swift` | Holds the set of valid access codes for the app. Only people with a code can unlock Loop. |
@@ -53,7 +53,7 @@ Runs that don't close into a loop are still saved to your history, they just don
 
 1. Each runner signs in with an access code and gets a unique colour
 2. Start a run from the Record tab
-3. Run any route — a park, a block, a field — and return close to where you started
+3. Run any route; a park, a block, a field, and return close to where you started
 4. If your finish point is within 50 m of your start, the loop closes
 5. The enclosed area is calculated and added to your total on the Leaderboard
 6. The runner with the most total area claimed wins
