@@ -6,5 +6,11 @@
 	<array>
 		<string>location</string>
 	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Loop uses your location to show your position, record your run route, and calculate distance and area.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Loop needs your location to track your run.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Loop needs your location to track your run in the background.</string>
 </dict>
 </plist>

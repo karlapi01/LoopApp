@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		2A22CEAC2FC0EDC3005EC3B2 /* Exceptions for "Loop" folder in "Loop" target */ = {
+		2AD440E22FF6A9C500D0A285 /* Exceptions for "Loop" folder in "Loop" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -43,7 +43,7 @@
 		2A22CE652FC06BB3005EC3B2 /* Loop */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				2A22CEAC2FC0EDC3005EC3B2 /* Exceptions for "Loop" folder in "Loop" target */,
+				2AD440E22FF6A9C500D0A285 /* Exceptions for "Loop" folder in "Loop" target */,
 			);
 			path = Loop;
 			sourceTree = "<group>";
